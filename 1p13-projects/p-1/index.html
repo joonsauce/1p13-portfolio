@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <html>
+<!-- TODO:
+    - fix images
+    - add jquery support
+-->
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-        <link rel="stylesheet" href="/1p13-portfolio/1p13.css">
-        <link rel="stylesheet" href="/1p13-portfolio/1p13-projects/1p13p.css">
-        <link rel="stylesheet" href="/1p13-portfolio/1p13-projects/1p13p-p.css">
-        <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="/1p13.css">
+        <link rel="stylesheet" href="/1p13-projects/1p13p-p.css">
+        <link rel="shortcut icon" href="https://joonsauce.me/media/logo.png" type="image/x-icon">
         <title>1P13 P-1</title>
     </head>
     <body>
-        <div class="p-proj-modal" id="openpdf">
-            <div class="p-proj-modal-content">
-                <div class="p-proj-modal-close-container">
-                    <span class="p-proj-modal-close">&times;</span>
-                </div>
-                <object data="" type="application/pdf" class="p-proj-modal-pdf" id="pdfviewer">
-                    <p>An error occured as the PDF tried to load. Please try again later.</p>
-                </object>
-            </div>
-        </div>
         <nav class="topbar-container">
             <div class="topbar-logo-cont">
-                <a href="/"><img src="/media/logo2.png" style="width: 4vw;"></a>
+                <a href="/"><img src="https://joonsauce.me/media/logo.png" style="width: 4vw;"></a>
                 <h2 class="p-proj-title">P-1: Wind Turbine Blades</h2>
             </div>
             <div class="topbar">
-                <a href="/1p13-portfolio" class="topbar-text"><h2>Home</h2></a>
-                <a href="/1p13-portfolio/1p13-projects/" class="topbar-text"><h2>Projects</h2></a>
+                <a href="/" class="topbar-text"><h2>Home</h2></a>
+                <a href="/1p13-projects/" class="topbar-text"><h2>Projects</h2></a>
             </div>
         </nav>
         <div class="p-container">
             <div class="p-leftbar">
-                <img src="/media/1p13/p1_deflection.png" class="p-proj-leftbar-img">
+                <img src="/1p13/p1_deflection.png" class="p-proj-figure">
                 <p class="p-proj-desc"><b>Figure 1: </b>The final CAD model & deflection simulation of the blade using low-carbon steel.</p>
-                <img src="/media/1p13/p1_grantagraph.png" class="p-proj-leftbar-img">
+                <img src="/1p13/p1_grantagraph.png" class="p-proj-figure">
                 <p class="p-proj-desc"><b>Figure 2: </b>Yield Strength vs. Density * Embodied energy (maximize strength while minimizing density & energy needed for manufacturing)</p>
-                <img src="/media/1p13/p1_gantt.png" class="p-proj-leftbar-img">
+                <img src="/1p13/p1_gantt.png" class="p-proj-figure">
                 <p class="p-proj-desc"><b>Figure 3: </b>Final Gantt Chart detailing project timeline</p>
             </div>
             <div class="p-rightbar">
@@ -76,6 +69,5 @@
                 projects in general.</p>
             </div>
         </div>
-        <script src="/1p13-portfolio/1p13-projects/1p13p.js"></script>
     </body>
 </html>
